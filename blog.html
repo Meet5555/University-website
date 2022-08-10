@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University webite design - Easy tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Index.html"><img src="img/logo.png" alt=""></a>
+            <div class="navbar" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html" target="_blank">ABOUT</a></li>
+                    <li><a href="course.html" target="_blank">COURSE</a></li>
+                    <li><a href="blog.html" target="_blank">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>Our Certificate & Online programs for 2021</h1>
+    </section>
+
+    <section class="blog">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online programs for 2021</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quis, maiores facilis vel quam aliquid illo, nobis dignissimos minus blanditiis officiis laborum sit, quasi similique quibusdam animi veniam quaerat excepturi delectus obcaecati ut voluptatibus! Quidem adipisci commodi voluptatum impedit ipsa a veniam expedita suscipit! Quam.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptate quidem! Ipsam, id! Possimus tenetur quis nobis voluptatem illo! Veniam facilis dolorum amet odio quos adipisci ipsam, tempore veritatis, corporis nam vitae nostrum eos perspiciatis. Architecto quaerat, omnis nihil explicabo voluptates amet iusto, aperiam dolor facere aut quia similique consectetur aspernatur vero esse ullam maiores dicta necessitatibus quas reiciendis maxime! Tenetur ut dolore consequatur reiciendis vero officiis suscipit pariatur aspernatur dolores soluta quo voluptatibus labore quis exercitationem dolorem voluptas enim rerum, similique consectetur voluptate reprehenderit sapiente quae, velit repellat. Alias in soluta officiis suscipit unde iusto, voluptate neque? Dolore, inventore?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem optio ut voluptas harum cupiditate pariatur quam consequuntur est temporibus. Suscipit, magnam, dolor, modi praesentium odio qui excepturi aspernatur maxime deserunt sapiente dignissimos! Dolorem magnam commodi natus cupiditate dolore, vitae labore corporis ipsa harum, fuga sit, quos cum asperiores quibusdam exercitationem eius molestias ipsum repudiandae quam officia est eum! Illo alias aliquid placeat dolorem architecto deleniti fugit incidunt laudantium, maxime laborum, dolore quo quam. Doloremque debitis voluptatum suscipit, cum voluptatibus obcaecati.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem mollitia, laudantium praesentium necessitatibus sit numquam aliquam explicabo facilis ipsam illum illo omnis molestiae ipsum error id provident sint reprehenderit, consectetur quam repellendus nisi asperiores totam.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form" >
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter E-mail">
+                        <textarea  rows="5" placeholder="Your comment"></textarea>
+                    </form>
+                    <button type="submit" class="btn red-btn">Post Comment</button>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categoreis</h3>
+                <div>
+                    <span>Business Analyticsc</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quasi a veniam earum ab at provident <br>beatae mollitia quis cumque iste maxime ut totam, nesciunt aliquam amet illum sequi laboriosam.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> Easy tutorial</p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+        
+    </body>
+</html>
